@@ -8,7 +8,7 @@ In this project I created two virtual machines to serve as my lab environment. T
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> >
+- <b>PowerShell</b> 
 
 <h2>Environments Used </h2>
 
@@ -20,31 +20,47 @@ In this project I created two virtual machines to serve as my lab environment. T
 
 <p align="center">
 Create Windows Server 2019 VM: <br/>
-<img src="https://imgur.com/cEAx9uJ" height="80%" width="80%"/>
+<img src="AD Home Lab/1 Create Server VM.png" height="80%" width="80%" alt="AD Lab Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure Active Directory:  <br/>
+<img src="AD Home Lab/2 Configure AD.png" height="80%" width="80%" alt="AD Lab Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Add New User in AD Manually: <br/>
+<img src="AD Home Lab/3 Add user in AD.png" height="80%" width="80%" alt="AD Lab Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Connect Server to the Internet:  <br/>
+<img src="AD Home Lab/4 Connect Server to the Internet.png" height="80%" width="80%" alt="AD Lab Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure DHCP Server :  <br/>
+<img src="AD Home Lab/5 Configure DHCP server.png" height="80%" width="80%" alt="AD Lab Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Script for using Powershell to add 1000 users to AD:  <br/>
+<img src="AD Home Lab/6 Script for creating 1k users.png" height="80%" width="80%" alt="AD Lab Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Run Script in Powershell to create new users:  <br/>
+<img src="AD Home Lab/7 Running script to create users.png" height="80%" width="80%" alt="AD Lab Steps"/>
+<br />
+<br />
+Create Client VM using Windows 10:  <br/>
+<img src="AD Home Lab/8 Create Client VM.png" height="80%" width="80%" alt="AD Lab Steps"/>
+<br />
+<br />
+Final Set Up of Domain Controller:  <br/>
+<img src="AD Home Lab/9 Final Set up of Domain Controller.png" height="80%" width="80%" alt="AD Lab Steps"/>
+<br />
+<br />
+Users Added to AD:  <br/>
+<img src="AD Home Lab/10 Users Added to AD.png" height="80%" width="80%" alt="AD Lab Steps"/>
+<br />
+<br />
+Client Terminal Added in AD:  <br/>
+<img src="AD Home Lab/11 Client Terminal Added in AD.png" height="80%" width="80%" alt="AD Lab Steps"/>
 </p>
 
 <!--
